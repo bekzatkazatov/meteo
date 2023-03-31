@@ -2,7 +2,34 @@
 .country {
     display: flex;
     align-items: center;
+    color: #3CBC8D;
 }
 h3{
    margin-left: 20px;
+    font-weight: 600;
+    color: #3CBC8D;
 }
+
+.input {
+    padding:10px;
+    border-radius:10px;
+    background-color: #3CBC8D;
+    color: white;
+
+}
+button{
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+.search{
+ display: flex;
+    align-items: center;
+
+}
+
