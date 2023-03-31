@@ -32,4 +32,9 @@ button{
     align-items: center;
 
 }
-
+span{
+    color: #2AA4F4;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 30px;
+}

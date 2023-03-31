@@ -3,6 +3,7 @@ const title = document.querySelector('.title')
 const subtitle = document.querySelector('.subtitle')
 const title3 = document.querySelector('.title3')
 const input = document.querySelector('.input')
+const icon = document.querySelector('.icon')
 
 
 submit.addEventListener('click', () => {
@@ -13,7 +14,12 @@ submit.addEventListener('click', () => {
         .then((data) => {
                 title.innerHTML = `${data.location.region}`;
                 subtitle.innerHTML = `${data.location.country}`;
-                title3.innerHTML = `${data.current.temp_c}`
+                title3.innerHTML = `${data.current.temp_c}`;
+                icon.innerHTML = `<img src="${data.current.condition.icon}" alt="">`
+
+
+
+
             }
 
         )
